@@ -176,7 +176,7 @@ a{
     content: "";
     position: absolute;
     top: 13px;
-    left: 505px;
+    left: 463px;
     height: 6%;
     width: 65px;
     background: #ddd;
@@ -185,7 +185,7 @@ a{
     content: "";
     position: absolute;
     top: 13px;
-    right: 505px;
+    right: 463px;
     height: 6%;
     width: 65px;
     background: #ddd;
@@ -220,6 +220,7 @@ a{
     padding: 55px 25px;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 5px;
 }
 .service-box:nth-child(4){
     margin: 0;
@@ -265,18 +266,136 @@ a{
     color: #fff;
 }
 /* Service Section CSS End Here */
-/* Contact Section Start From Here */
-.contact{
-    background:#f6f6f6;
+/* About Section Start From Here */
+.about{
+    background: #f6f6f6;
     padding: 80px 0;
 }
-.con-video {
-    width: 49%;
+.video{
+    width: 48%;
+}
+.about-text{
+    width: 48%;
+}
+.about-text h2 {
+    font-size: 35px;
+    margin: 10px 0;
+}
+.about-text h2 span{
+    color: #d1935a;
+}
+.about-text article {
+    margin: 10px 0;
+    line-height: 25px;
+}
+details{
+    margin: 18px 0;
+}
+summary{
+    cursor: pointer;
+}
+.about-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    transition: 0.5s;
+}
+.about-btn:hover{
+
+    background: #D1935A;
+}
+/* About Section End Here */
+/* Contact CSS Start From Here */
+.contact{
+    padding: 192px 0;
+    background: url(../img/footer.jpg);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f6f6f6;
+}
+.contact-right{
+    
+}
+.contact-form {
+    width: 50%;
     position: relative;
     top: 0;
-    left: 111px;
+    left: 140px;
 }
-.con-about{
-    width: 49%;
+.contact-form h2 {
+    font-size: 33px;
+    margin: 10px 0;
 }
-/* Contact Section End Here */
+.contact-form p {
+    width: 83%;
+    margin: 20px 0;
+}
+.contact-form form{
+    
+}
+.contact-form form .name {
+    width: 61%;
+    padding: 7px;
+    margin-bottom: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form form .email{
+    width: 61%;
+    padding: 7px;
+    margin-bottom: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form form .number{
+    width: 61%;
+    padding: 7px;
+    margin-bottom: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form form .message{
+    width: 61%;
+    padding: 7px;
+    margin-bottom: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form form .contact-btn {
+    padding: 15px 30px;
+    color: #fff;
+    background: #d1935a;
+    border: none;
+}
+/* Contact CSS End Here */
+/* Footer CSS Start From Here */
+.footer{
+    background: #6d6d6d;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left p {
+    color: #fff;
+    font-size: 18px;
+}
+.footer-right{
+    width: 50%;
+}
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 18px;
+    color: #fff;
+}
+/* Footer CSS End Here */
